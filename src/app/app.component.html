@@ -1,1 +1,16 @@
-<div>Hello World!</div>
+<div class="container text-center">
+  <h1>My Contacts</h1>
+</div>
+<div class="container">
+  <nav class="navbar navbar-light bg-light">
+    <form class="form-inline ng-untouched ng-pristine ng-valid">
+      <button type="button" class="btn btn-outline-success" routerLink="/">
+        Contact List
+      </button>
+      <button type="button" class="btn btn-outline-success" routerLink="/add">Add Contact</button>
+    </form>
+  </nav>
+</div>
+<div>
+  <router-outlet></router-outlet>
+</div>
